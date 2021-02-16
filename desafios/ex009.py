@@ -1,25 +1,17 @@
-n0 = int(input('Digite um Número: '))
-n1 = n0*1
-n2 = n0*2
-n3 = n0*3
-n4 = n0*4
-n5 = n0*5
-n6 = n0*6
-n7 = n0*7
-n8 = n0*8
-n9 = n0*9
-n10 = n0*10
-print('A tabuada do {} é:'.format(n0))
-print(n1)
-print(n2)
-print(n3)
-print(n4)
-print(n5)
-print(n6)
-print(n7)
-print(n8)
-print(n9)
-print(n10)
+n = int(input('Digite um Número: '))
+print('_' *12)
+print('{} x {:2} = {}'.format(n, 1, n*1))
+print('{} x {:2} = {}'.format(n, 2, n*2))
+print('{} x {:2} = {}'.format(n, 3, n*3))
+print('{} x {:2} = {}'.format(n, 4, n*4))
+print('{} x {:2} = {}'.format(n, 5, n*5))
+print('{} x {:2} = {}'.format(n, 6, n*6))
+print('{} x {:2} = {}'.format(n, 7, n*7))
+print('{} x {:2} = {}'.format(n, 8, n*8))
+print('{} x {:2} = {}'.format(n, 9, n*9))
+print('{} x {} = {}'.format(n, 10, n*10))
+print('-' *12)
+
 
 
 
